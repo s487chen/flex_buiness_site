@@ -1,0 +1,133 @@
+* {
+    margin:0;
+}
+
+html {
+    background-color: dimgray;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-width: 250px;
+    
+}
+
+
+header {
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0.2em 0;
+}
+
+#logo {
+    display: flex;
+    height: 2rem;
+    padding-left: 0.2em;
+    align-items: center;
+   
+}
+#logo img {
+    height:100%;
+    width:auto;
+}
+#logo h3 {
+    padding-left: 0.2em;
+}
+nav {
+    padding:0 0.2em;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding-right: 0.2rem;
+}
+
+main,footer {
+    padding-top: 2.4rem;
+}
+
+#title img {
+    width: 20%;
+    height: auto;
+    max-width: 200px;
+
+}
+h1 {
+    font-size: 2rem; 
+}
+section {
+    border-bottom: 1rem solid darkgray;
+}
+
+#mission {
+    background-image: url(./bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p,h2 {
+    background-color: dimgray;
+    padding: 0.3em 0;
+
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.2rem;
+    
+}
+
+.game {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    overflow: hidden;
+    width:auto;
+    height: 250px;
+}
+
+.container img {
+    max-height: 100%;
+    width: auto;
+    display: block;
+
+  }
+
+#team .imgs {
+    background-image: url(./bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    color:darkgray;
+}
+#copyright {
+    text-align: right;
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        justify-content: center;
+    }
+}
